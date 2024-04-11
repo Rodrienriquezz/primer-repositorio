@@ -1,0 +1,454 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    background-image: linear-gradient(
+       rgb(0,0,0,0.7),
+       rgb(0,0,0,0.7)),
+       url(image/f1-grid.jpg);
+       background-position: center bottom;
+       background-repeat: no-repeat;
+       background-size: cover;
+       min-height: 70vh;
+       display: flex;
+       align-items: center;
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    color: whitesmoke;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: whitesmoke;
+    display: block;
+    font-weight: 600;
+}
+
+.menu .navbar ul li a:hover{
+    color: blueviolet;
+}
+
+#menu{
+    display: none;
+}
+
+.menu-icono{
+    width: 25px;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+.content-header{
+    text-align: center;
+}
+
+.content-header h1{
+    font-size: 75px;
+    line-height: 90px;
+    color: whitesmoke;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.content-header p{
+font-size: 16px;
+color: whitesmoke;
+padding: 0 250px;
+margin-bottom: 25px;
+}
+
+.btn-1{
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: powderblue;
+    color: whitesmoke;
+    text-transform: uppercase;
+}
+
+.btn-1:hover{
+    background-color: blueviolet;
+}
+
+.autos{
+    padding: 100px 0;
+    background-color: #e1e2e6;
+    position: relative;
+}
+
+.autos-content{
+    text-align: center;
+}
+
+.autos-content h2{
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom:  15px;
+}
+
+.texto-p{
+    font-size: 16px;
+    color: #414247;
+    padding: 0 250px;
+    margin-bottom: 35px;
+}
+
+.autos-group{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.auto-1 img{
+   width: 200px; 
+}
+
+.auto-1{
+    padding: 0 25px;
+}
+
+.autos-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.auto-1 h3{
+    color: #323337;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.service{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)),
+        url(image/f1-max.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 100px 0;
+}
+
+.services-content{
+    text-align: center;
+}
+
+.services-content h2{
+    font-size: 55px;
+    line-height: 70px;
+    color: whitesmoke;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.services-content p{
+    font-size: 16px;
+    color: whitesmoke;
+    margin-bottom: 50px;
+    padding: 0 100px;
+}
+
+.services-group{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.service-1{
+padding: 0 100px;
+}
+
+.service-1 img{
+    width: 25px;
+    margin-bottom: 15px;
+}
+
+.service-1 h3{
+    color: #eaccb3;
+    font-size: 18px;
+}
+
+.general{
+    display: flex;
+}
+
+.general-1{
+    width: 50%;
+    padding: 100px 250px 100px 100px;
+    background-color: #e1e2e6;
+}
+
+.general-2{
+    background-image: url(image/aston-martin-arm21.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-3{
+    background-image: url(image/f2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-0{
+    background-image: url(image/f3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+h2{
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 16px;
+    color: #414247;
+    margin: 25px 0 45px 0;
+}
+
+
+.footer{
+    color: black;
+    text-align: center;
+}
+
+.footer a img {
+    width: 5%;
+    height: 5%;
+}
+
+footer div{
+    text-align: center;}
+
+@media(max-width:990px) {
+    .menu{
+        display: initial;
+    }
+
+    .menu label{
+        display: initial;
+    }
+
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #323337;
+        display: none;
+    }
+
+    .menu .navbar ul li{
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
+    
+    .header{
+        min-height: 0vh;
+    }
+
+    .content-header{
+        padding: 0;
+    }
+
+    .content-header p{
+        padding: 0;
+    }
+
+    .autos{
+        padding: 30px;
+    }
+
+    .autos-content h2{
+        padding: 0;
+    }
+
+    .texto-p{
+        padding: 0;
+    }
+
+    .autos-group{
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .autos-img{
+        display: none;
+    }
+
+    .service{
+        padding: 30px;
+    }
+
+    .services-content p{
+        padding: 0;
+    }
+
+    .services-group{
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .service-1{
+        margin-bottom: 25px;
+    }
+
+    .general{
+        flex-direction: column;
+    }
+
+    .general-1{
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+    }
+
+    .general-2 .general-3{
+        display: none;
+    }
+
+    .footer{
+        padding: 30px;
+    }
+
+    .footer-content{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+
+/*fotos*/
+.contenedor-fotos{
+
+    body{
+    background-color: #0e0d0d;
+}
+/*estilos de header*/
+header{
+    /*si tranajamos en direccion de row justify content te alinia el eje horizontal,
+    el alto del header la da la imagen*/
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 0px 10px;
+
+}
+
+header nav ul{
+    color: whitesmoke;
+    list-style: none;
+    display: flex;
+    gap: 20px;    
+}
+/*estilos main*/
+main .img-dos, main .img-cinco{
+    display: none;
+}
+
+main div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 25%);
+    row-gap: 2rem;
+    margin: 50px 20px 15px 20px;
+    height: 70vh;
+}
+
+/*estilo de footer*/
+footer{
+    color: whitesmoke;
+    text-align: center;
+}
+
+/*mq de tablet*/
+
+@media screen and (min-width: 600px) {
+    main{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2,50%);
+    }
+    main .img-cuatro{
+        grid-column: span 2;
+    }
+    body{
+        background-color: blueviolet;
+    }
+    footer{
+        margin-top: 60px;
+    }
+}
+    /*mq de desktop*/
+    @media screen and (min-width:1024px) {
+        main .img-dos, main .img-cinco{
+            display: block;
+        }
+        main{
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 40% 40% 15%;
+            column-gap: 2rem;
+        }
+        main .img-uno, main .img-tres{
+            grid-row: span 2;
+        }
+        main .img-dos, main .img-cuatro{
+            grid-column: span 1;
+        }
+    }
+}
