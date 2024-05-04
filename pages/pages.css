@@ -1,0 +1,312 @@
+/*Css para pagina de escuderias y pilotos*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.escuderiasypilotos{
+    font-family: 'Poppins', sans-serif;
+    background-color: #000000;
+}
+
+img{
+    max-width: 100%;
+}
+
+.container2{
+    max-width: 1200px;
+    margin: 0 auto;    
+}
+
+.header2{
+    background-image: linear-gradient(rgb(0,0,0,0.7), rgb(0,0,0,0.7)), url(/image/grid.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    padding: 80px 0;
+}
+
+.menu2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    color: #ffffff00;
+    font-size: 25px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.menu2 .navbar2 ul li{
+    position: relative;
+    float: left; 
+}
+
+.menu2 .navbar2 ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: #ffffff;
+    font-weight: 600;
+    display: block;
+}
+
+.menu2 .navbar2 ul li a:hover{
+    color: red;
+}
+
+#menu{
+    display: none;
+}
+
+.menu-icono2{
+    width: 25px;
+}
+
+.menu2 label{
+    cursor:pointer;
+    display: none;
+}
+
+.header-content2{
+    display: flex;
+}
+
+.header-txt{
+    flex-basis: 50%;
+}
+
+.header-txt h1{
+    font-size: 60px;
+    color: #ffffff;
+    line-height: 1.3;
+    margin-bottom: 25px;
+}
+
+.btn-3 .btn4{
+  display: inline-block;
+  padding: 11px 35px;
+  border: 2px solid red;
+  border-radius: 25px;
+  margin-right: 25px;
+  font-size: 17px;
+  color: #ffffff;  
+}
+
+.escuderias{
+padding: 100px 0;
+text-align: center;
+}
+
+h2{
+    color: #ffffff;
+    font-size: 35px;
+    margin-bottom: 45px;
+}
+
+.escuderias-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.escuderias-content img{
+   width: 100px; 
+}
+
+.equipos-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+}
+
+.escuderia-1{
+    background-color: #0e0d0d;
+}
+
+.escuderia-txt{
+    padding: 50px 30px;
+}
+
+h3{
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info p{
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.btn-3{
+    padding: 5px 25px;
+    background-color: #ffffff;
+    margin-right: 0;
+}
+
+.info{
+    padding: 150px 200px;
+    justify-content: center;
+}
+
+.info-content{
+    background-color: #5f5e5e;
+    text-align: center;
+    padding: 50px;
+    border-radius: 50px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+input{
+    padding: 18px 25px;
+    background-color: red;
+    border: 0;
+    border-radius: 25px;
+    outline: none;
+    margin-right: 10px;
+    color: #000000;
+    font-size: 17px;
+}
+
+::placeholder{
+    color: #000000;
+    font-size: 17px;
+}
+
+.btn-4{
+    background-color: red;
+    cursor: pointer;
+    margin-right: 0;
+}
+
+.footer2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.link ul{
+    display: flex;
+}
+
+.link ul li > a{
+    font-size: 17px;
+    color: #ffffff;
+    margin-right: 20px;
+}
+
+.link ul li > a:hover{
+    color: red;
+}
+
+
+@media(max-width:991px){
+    .menu2{
+        padding: 20px;
+    }
+
+    .menu2 label{
+        display: initial;
+    }
+
+    .menu2 .navbar2{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #000000;
+        display: none;
+    }
+
+    .menu2 .navbar2 ul li a:hover{
+        color: #0e0d0d;
+    }
+
+    .menu2 .navbar2 ul li{
+        width: 100%;
+    }
+
+    #menu2:checked ~ .navbar2{
+        display: initial;
+    }
+
+    .header2{
+        min-height: 0hv;
+        padding: 80px 30px 50px 30px;
+    }
+
+    .header-txt{
+        text-align: center;
+        flex-basis: 100%;
+    }
+
+    .header-txt h1{
+        font-size: 50px;
+        margin-bottom: 15px;
+        justify-content: center;
+    }
+
+    .escuderias{
+        display: none;
+    }
+
+    .equipos{
+        padding: 30px;
+    }
+
+    .equipos-content{
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
+    }
+
+    .escuderia-1 img{
+        width: 100%;
+    }
+
+    .info{
+        padding: 30px;
+    }
+
+    form{
+        flex-direction: column;
+    }
+
+    input{
+        margin: 0 0 20px 0;
+    }
+
+    .footer{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .link ul{
+        margin-top: 20px;
+    }
+}

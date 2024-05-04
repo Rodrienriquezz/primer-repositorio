@@ -15,7 +15,7 @@
     background-image: linear-gradient(
        rgb(0,0,0,0.7),
        rgb(0,0,0,0.7)),
-       url(image/f1-grid.jpg);
+       url(image/grid.jpg);
        background-position: center bottom;
        background-repeat: no-repeat;
        background-size: cover;
@@ -35,7 +35,7 @@
 }
 
 .logo{
-    color: whitesmoke;
+    color: rgba(245, 245, 245, 0);
     font-size: 25px;
     font-weight: 800;
 }
@@ -80,6 +80,7 @@
     color: whitesmoke;
     text-transform: uppercase;
     margin-bottom: 35px;
+    text-decoration: underline;
 }
 
 .content-header p{
@@ -118,6 +119,7 @@ margin-bottom: 25px;
     text-transform: uppercase;
     padding: 0 250px;
     margin-bottom:  15px;
+    text-decoration: underline;
 }
 
 .texto-p{
@@ -175,6 +177,7 @@ margin-bottom: 25px;
     color: whitesmoke;
     text-transform: uppercase;
     margin-bottom: 50px;
+    text-decoration: underline;
 }
 
 .services-content p{
@@ -204,6 +207,13 @@ padding: 0 100px;
     font-size: 18px;
 }
 
+.campeones .campeones2{
+    background-color: #ffffff;
+    text-align: center;
+    text-decoration: underline;
+    color: #000000;
+}
+
 .general{
     display: flex;
 }
@@ -211,11 +221,11 @@ padding: 0 100px;
 .general-1{
     width: 50%;
     padding: 100px 250px 100px 100px;
-    background-color: #e1e2e6;
+    background-color: #ffffff;
 }
 
 .general-2{
-    background-image: url(image/aston-martin-arm21.jpg);
+    background-image: url(image/Farina.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -223,7 +233,263 @@ padding: 0 100px;
 }
 
 .general-3{
-    background-image: url(image/f2.jpg);
+    background-image: url(image/juanmfangio.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-4{
+    background-image: url(image/ascari.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-5{
+    background-image: url(image/hawthorn.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-6{
+    background-image: url(image/Brabham.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-7{
+    background-image: url(image/hill.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-8{
+    background-image: url(image/NormanGrahamHill.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-9{
+    background-image: url(image/jimclark.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-10{
+    background-image: url(image/JohnSurtees.JPG);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-11{
+    background-image: url(image/hulme.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-12{
+    background-image: url(image/stewart.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-13{
+    background-image: url(image/rindt.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-14{
+    background-image: url(image/fittipaldi.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-15{
+    background-image: url(image/niki-lauda.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-16{
+    background-image: url(image/hunt.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-17{
+    background-image: url(image/mario-andretti.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-18{
+    background-image: url(image/scheckter.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-19{
+    background-image: url(image/jones.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-20{
+    background-image: url(image/piquet.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-21{
+    background-image: url(image/Keke-Rosberg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-22{
+    background-image: url(image/prost.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-23{
+    background-image: url(image/senna.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-24{
+    background-image: url(image/mansell.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-25{
+    background-image: url(image/shumacher.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-26{
+    background-image: url(image/damonhill.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-27{
+    background-image: url(image/villeneuve.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-28{
+    background-image: url(image/hakkinen.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-29{
+    background-image: url(image/alonso.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-30{
+    background-image: url(image/raikkonen.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-31{
+    background-image: url(image/hamilton.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-32{
+    background-image: url(image/button.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-33{
+    background-image: url(image/vettel.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-34{
+    background-image: url(image/rosberg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-35{
+    background-image: url(image/verstappen.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -266,7 +532,7 @@ p{
 footer div{
     text-align: center;}
 
-@media(max-width:990px) {
+@media(max-width:2000px) {
     .menu{
         display: initial;
     }
@@ -342,19 +608,6 @@ footer div{
         margin-bottom: 25px;
     }
 
-    .general{
-        flex-direction: column;
-    }
-
-    .general-1{
-        width: 100%;
-        padding: 30px;
-        text-align: center;
-    }
-
-    .general-2 .general-3{
-        display: none;
-    }
 
     .footer{
         padding: 30px;
@@ -414,7 +667,7 @@ main{
 
 /*estilo de footer*/
 footer{
-    color: whitesmoke;
+    color:#e1e2e6;
     text-align: center;
 }
 
@@ -453,3 +706,10 @@ footer{
         }
     }
 }
+
+
+
+
+
+
+
